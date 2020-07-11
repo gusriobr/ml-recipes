@@ -5,8 +5,8 @@ import numpy as np
 
 import pigsty.config as cfg
 import ocvtools.image.imutils as imu
-from utils.video.iterators import VideoFrameIterator
-from utils.video.writter import VideoWritter
+from cvision.video.iterators import VideoFrameIterator
+from cvision.video.writter import VideoWritter
 
 
 def is_active_iterator(video_iterators):
